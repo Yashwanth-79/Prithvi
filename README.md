@@ -56,6 +56,12 @@ Prithvi is an advanced agricultural assistance platform designed to empower farm
 - **Python 3.7+**
 - **Streamlit**
 - **Firebase Admin SDK**
+  
+### APIs requirements:
+- Gemini AI STudio API
+- Serper API
+- firebase credentials
+- Active GCP acees
 
 ### Step-by-Step Instructions
 
@@ -67,5 +73,4 @@ Prithvi is an advanced agricultural assistance platform designed to empower farm
 
   ```bash
   pip install -r requirements.txt
-
 
