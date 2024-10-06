@@ -255,10 +255,10 @@ def water_management():
                     random.seed(42)
                     # Create mock season data for graph demonstration
                     season_data = [
-                        {"Season": "Summer", "Water Level": random.randint(0, 30)},
-                        {"Season": "Winter", "Water Level": random.randint(15, 30)},
-                        {"Season": "Rainy", "Water Level": random.randint(30, 60)},
-                        {"Season": "Monsoon", "Water Level": random.randint(30, 50)},
+                        {"Season": "Summer", "Water Level": },
+                        {"Season": "Winter", "Water Level": },
+                        {"Season": "Rainy", "Water Level": },
+                        {"Season": "Monsoon", "Water Level": },
                     ]
 
                     # Create and display the water level graph
