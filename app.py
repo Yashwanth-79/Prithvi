@@ -18,13 +18,13 @@ import time
 # 1. Firebase Setup
 # Replace placeholders with your actual Firebase project details
 firebase_config = {
-    "apiKey": "AIzaSyAVYykWmf8B9HPCcSFz6tZugNC5eS7vefQ",
-    "authDomain": "prithvi-45d3f.firebaseapp.com",
-    "projectId": "prithvi-45d3f",
-    "storageBucket": "prithvi-45d3f.appspot.com",
-    "messagingSenderId": "292756309891",
-    "appId": "1:292756309891:web:56094a7f63f1ee0d88d8b6",
-    "databaseURL": "https://prithvi-45d3f-default-rtdb.firebaseio.com"
+    "apiKey": " ",
+    "authDomain": " ",
+    "projectId": " ",
+    "storageBucket": " ",
+    "messagingSenderId": "",
+    "appId": "",
+    "databaseURL": ""
 }
 
 # Initialize Firebase for authentication
@@ -36,7 +36,7 @@ auth = firebase.auth()
 #firebase_admin.initialize_app(cred)
 #db = firestore.client()
 if 'firebase_app' not in st.session_state:
-    cred = credentials.Certificate('prithvi-45d3f-firebase-adminsdk-o4c77-62e1d077aa.json')
+    cred = credentials.Certificate('.json')
     st.session_state['firebase_app'] = firebase_admin.initialize_app(cred)
     db = firestore.client()
 else:
@@ -44,8 +44,8 @@ else:
 
 # 2. API Keys
 # Replace with your actual API keys
-SERPER_API_KEY = "3aaf1803898f5629001b27362fb5d29ef3763e42"
-GEMINI_API_KEY = "AIzaSyBLofJGHX1U96SCLOn5hytoOaLcEIDoFcY"
+SERPER_API_KEY = ""
+GEMINI_API_KEY = ""
 genai.configure(api_key=GEMINI_API_KEY)
 
 # --- Helper Functions ---
@@ -441,7 +441,7 @@ def crop_market_analysis():
 
 
 def disease_prediction():
-    genai.configure(api_key="AIzaSyBLofJGHX1U96SCLOn5hytoOaLcEIDoFcY")
+    genai.configure(api_key="")
     generation_config = {
         "temperature": 0.15,
         "top_p": 0.95,
@@ -644,7 +644,7 @@ def farmer_community():
 
     # Initialize Firebase Admin with appropriate error handling
     try:
-        cred = credentials.Certificate('prithvi-45d3f-firebase-adminsdk-o4c77-62e1d077aa.json')
+        cred = credentials.Certificate('json')
         if not firebase_admin._apps:  # Ensure Firebase is initialized only once
             firebase_admin.initialize_app(cred)
         db = firestore.client()
