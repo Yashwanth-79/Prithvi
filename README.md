@@ -49,7 +49,6 @@ Prithvi is an advanced agricultural assistance platform designed to empower farm
 
 ---
 
-## 🛠️ Installation Guide
 
 ## 🛠️ Installation Guide
 
