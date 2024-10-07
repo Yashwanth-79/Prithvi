@@ -1,3 +1,5 @@
+[](https://github.com/Yashwanth-79/Prithvi/blob/main/logo.png)
+
 # 🌾 Prithvi: Your AI-Powered Farming Assistant 🌾
 
 Prithvi is an advanced agricultural assistance platform designed to empower farmers with cutting-edge technology and data-driven insights. It helps farmers make informed decisions about water management, crop market trends, disease prediction, and connects them with a community of like-minded individuals for discussions and advice.
