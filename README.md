@@ -78,3 +78,8 @@ YouTube Demo : https://youtu.be/wiv4N-Tkgps
   ```bash
   pip install -r requirements.txt
 
+3. **Then run python file**
+
+  ```bash
+ strreamlit run app.py
+
