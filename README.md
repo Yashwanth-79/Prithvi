@@ -74,12 +74,14 @@ YouTube Demo : https://youtu.be/wiv4N-Tkgps
    git clone https://github.com/your-repo/prithvi-ai.git
    cd prithvi-ai
 2. **Install Required Dependencies Ensure you have Python and pip installed. Then, install the necessary libraries:**
-
   ```bash
   pip install -r requirements.txt
 
-3. **Then run python file**
+ Then run python file
 
   ```bash
  strreamlit run app.py
+
+
+
 
