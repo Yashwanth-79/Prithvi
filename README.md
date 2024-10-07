@@ -1,4 +1,4 @@
-[](https://github.com/Yashwanth-79/Prithvi/blob/main/logo.png)
+![](https://github.com/Yashwanth-79/Prithvi/blob/main/logo.png)
 
 # 🌾 Prithvi: Your AI-Powered Farming Assistant 🌾
 
@@ -77,10 +77,9 @@ YouTube Demo : https://youtu.be/wiv4N-Tkgps
   ```bash
   pip install -r requirements.txt
 
- Then run python file
-
-  ```bash
- strreamlit run app.py
+Then run python main file on terminal
+ 
+ streamlit run main.py
 
 
 
